@@ -71,16 +71,22 @@ try {
     </head>
 
     <body>
-
-        <div class="wrapper">
-            <div class="quote">
-                <?=$randomQuote['text']?>
+        <div class="content">
+            <div class="wrapper">
+                <div class="quote">
+                    <?=$randomQuote['text']?>
+                </div>
+                <div class="politician">
+                    - <?=$randomQuote['politician']->getName()?>
+                </div>
             </div>
-            <div class="politician">
-                - <?=$randomQuote['politician']->getName()?>
+<!--                <div>-->
+<!--                    <button>Ďalší citát</button>-->
+<!--                </div>-->
             </div>
-        </div>
-
+            <div style="display:none">
+                <?=$_SERVER['HTTP_ORIGIN'] ?? 'n' ?>
+            </div>
     </body>
 </html>
 
