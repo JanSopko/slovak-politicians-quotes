@@ -17,37 +17,41 @@ $truban = new Politician('Michal Truban');
 $radicova = new Politician('Iveta Radičová');
 
 $quotes = [
+//    [
+//        'text' => 'Bude to drahé.',
+//        'politician' => $pellegrini
+//    ],
+//    [
+//        'text' => 'Riško, drž balónik a čakaj!',
+//        'politician' => $radicova
+//    ],
+//    [
+//        'text' => 'Tá choroba existuje, ale je vymyslená a je to ďalší druh chrípky.',
+//        'politician' => $kotleba
+//    ],
+//    [
+//        'text' => 'Prosím vás neotravujte, tu sme pri žatve!',
+//        'politician' => $fico
+//    ],
+//    [
+//        'text' => 'To nebola zlodejina, to bol galaktický lup.',
+//        'politician' => $slota
+//    ],
+//    [
+//        'text' => 'Vám musí jebať chalani, fakt, vám musí jebať.',
+//        'politician' => $prochazka
+//    ],
+//    [
+//        'text' => 'Pôžičku si musíme zobrať na dve zásadné veci. Ďiaľnice a nemocnice. Nemočnišňuši.',
+//        'politician' => $danko
+//    ],
+//    [
+//        'text' => 'Žiaden človek nedokáže dať toľko lásky človeku, ako dokáže dať len človek človeku.',
+//        'politician' => $danko
+//    ]
     [
-        'text' => 'Bude to drahé.',
-        'politician' => $pellegrini
-    ],
-    [
-        'text' => 'Riško, drž balónik a čakaj!',
-        'politician' => $radicova
-    ],
-    [
-        'text' => 'Tá choroba existuje, ale je vymyslená a je to ďalší druh chrípky.',
-        'politician' => $kotleba
-    ],
-    [
-        'text' => 'Prosím vás neotravujte, tu sme pri žatve!',
-        'politician' => $fico
-    ],
-    [
-        'text' => 'To nebola zlodejina, to bol galaktický lup.',
-        'politician' => $slota
-    ],
-    [
-        'text' => 'Vám musí jebať chalani, fakt, vám musí jebať.',
-        'politician' => $prochazka
-    ],
-    [
-        'text' => 'Pôžičku si musíme zobrať na dve zásadné veci. Ďiaľnice a nemocnice. Nemočnišňuši.',
-        'politician' => $danko
-    ],
-    [
-        'text' => 'Žiaden človek nedokáže dať toľko lásky človeku, ako dokáže dať len človek človeku.',
-        'politician' => $danko
+        'text' => 'Ľúbim Lucku Poláčkovú.',
+        'politician' => new Politician('Ján Sopko')
     ]
 ];
 
