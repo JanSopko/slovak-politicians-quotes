@@ -68,6 +68,7 @@ try {
             Citáty slovenských politikov
         </title>
         <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" type="image/png" href="https://scontent-vie1-1.cdninstagram.com/v/t51.2885-19/s150x150/119074014_820227618717034_5975716096851557063_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_ohc=78JHOi_C_jEAX8Ch4Cq&oh=e2f6d98b852af1708ad97e092994133c&oe=5FA5D2B4">
     </head>
 
     <body>
