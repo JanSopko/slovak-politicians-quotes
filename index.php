@@ -84,9 +84,6 @@ try {
 <!--                    <button>Ďalší citát</button>-->
 <!--                </div>-->
             </div>
-            <div style="display:none">
-                <?=$_SERVER['HTTP_ORIGIN'] ?? 'n' ?>
-            </div>
     </body>
 </html>
 

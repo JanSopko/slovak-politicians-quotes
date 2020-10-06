@@ -2,29 +2,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0faf5;
+    /*background-color: #f0faf5;*/
+    background-image: url("https://i.pinimg.com/originals/2c/e5/64/2ce56449336bd83afe66a806c24a7768.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .wrapper {
     margin-top: -100px;
     border: 1px solid black;
     border-radius: 3px;
-    padding: 10px;
+    padding: 20px;
     background-color: white;
     box-shadow: inset 0 0 7px 0 rgba(0, 0, 0, 0.13);
 }
 
 .quote {
-    font-size: 20px;
+    padding: 10px;
+    font-size: 30px;
     font-style: italic;
     display: inline-block;
     max-width: 400px;
 }
 
 .politician {
+    padding: 10px;
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+    font-size: 20px;
 }
 
 button {
