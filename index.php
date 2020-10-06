@@ -72,7 +72,7 @@ try {
     </head>
 
     <body>
-        <div class="content">
+        <div class="content" >
             <div class="wrapper">
                 <div class="quote">
                     <?=$randomQuote['text']?>
