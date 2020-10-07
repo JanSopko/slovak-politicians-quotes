@@ -2,10 +2,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: #f0faf5;*/
-    background-image: url("https://i.pinimg.com/originals/d6/21/22/d62122573fa8f7622af9a2ef0233fcdd.jpg");
-    /*background-size: cover;*/
-    background-repeat: repeat;
+    background-image: url("https://hl.rs/wp-content/uploads/2017/03/Bratislava_Narodna_Rada_R01-890x395.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .wrapper {
