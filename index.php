@@ -110,10 +110,15 @@ try {
                     - <?=$randomQuote['politician']->getName()?>
                 </div>
             </div>
-<!--                <div>-->
-<!--                    <button>Ďalší citát</button>-->
-<!--                </div>-->
+                <div>
+                    <button onclick="onButtonClick()" C>Ďalší citát</button>
+                </div>
             </div>
+        <script>
+            onButtonClick = () => {
+                window.location.reload();
+            }
+        </script>
     </body>
 </html>
 
