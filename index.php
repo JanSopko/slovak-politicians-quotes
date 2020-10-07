@@ -68,6 +68,18 @@ $quotes = [
     [
         'text' => 'Ja v živote nepoužívam papier, keď čítam.',
         'politician' => $danko
+    ],
+    [
+        'text' => 'Nefeť pleseň!',
+        'politician' => $danko
+    ],
+    [
+        'text' => '*Cmuk*',
+        'politician' => $sulik
+    ],
+    [
+        'text' => 'Umelé oplodnenie nespadá do liečby neplodnosti, je to naplnenie istého chcenia rodičov. Je iks párov, ktoré sa zmieria s tým, že dieťa mať nebudú.',
+        'politician' => $zaborska
     ]
 ];
 
