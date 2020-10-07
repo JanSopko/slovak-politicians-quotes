@@ -109,10 +109,10 @@ try {
                 <div class="politician">
                     - <?=$randomQuote['politician']->getName()?>
                 </div>
-            </div>
-                <div>
-                    <button onclick="onButtonClick()" C>Ďalší citát</button>
+                <div class="next" onclick="onButtonClick()">
+                     Ďalší citát
                 </div>
+            </div>
             </div>
         <script>
             onButtonClick = () => {
