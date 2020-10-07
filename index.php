@@ -48,6 +48,26 @@ $quotes = [
     [
         'text' => 'Žiaden človek nedokáže dať toľko lásky človeku, ako dokáže dať len človek človeku.',
         'politician' => $danko
+    ],
+    [
+        'text' => 'Pán Reaktor.',
+        'politician' => $kotleba
+    ],
+    [
+        'text' => 'Nikdy si ja nesadnem do parlamentu ako opozičný poslanec. To je môj recept.',
+        'politician' => $fico
+    ],
+    [
+        'text' => 'Bolo by morálne, aby som ja po Slovensku šíril, že Blaha mydlil barana?',
+        'politician' => $matovic
+    ],
+    [
+        'text' => 'Ale kľudne nech si nasadí tú volavku a keď sa to bude dať a bude to pekná baba, tak sa s ňou aj vyspím.',
+        'politician' => $kollar
+    ],
+    [
+        'text' => 'Ja v živote nepoužívam papier, keď čítam.',
+        'politician' => $danko
     ]
 ];
 
@@ -63,6 +83,7 @@ try {
         <title>
             Citáty slovenských politikov
         </title>
+        <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" href="./style.css">
         <link rel="shortcut icon" type="image/png" href="./favicon.jpg">
     </head>
