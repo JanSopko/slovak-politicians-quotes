@@ -15,6 +15,7 @@ $mihal = new Politician('Jozef Mihál');
 $pellegrini = new Politician('Peter Pellegrini');
 $truban = new Politician('Michal Truban');
 $radicova = new Politician('Iveta Radičová');
+$kalinakMl = new Politician('Erik Kaliňák');
 
 $quotes = [
     [
@@ -80,6 +81,10 @@ $quotes = [
     [
         'text' => 'Umelé oplodnenie nespadá do liečby neplodnosti, je to naplnenie istého chcenia rodičov. Je iks párov, ktoré sa zmieria s tým, že dieťa mať nebudú.',
         'politician' => $zaborska
+    ],
+    [
+        'text' => 'A mojou ambíciou je, aby strana SMER bola jedna z prvých, ktorá bude mať svoj TikTok.',
+        'politician' => $kalinakMl
     ]
 ];
 
